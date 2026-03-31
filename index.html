@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sourav Portfolio Website" />
+  <title>Sourav Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-theme="dark">
+  <header class="site-header">
+    <nav class="nav container">
+      <h1 class="logo">Sourav</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+      <div>
+        <button id="theme-toggle" class="btn btn-outline btn-small" type="button">Light Mode</button>
+        <p class="toggle-note">Light / Dark Theme - Use toggle</p>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container panel">
+      <div class="hero-grid">
+        <div>
+          <p class="tagline">Sourav Kumar | B.Tech CSE (AI-ML) | BIT Mesra</p>
+          <h2>Portfolio of Sourav Kumar - AI/ML Student, Developer, and Problem Solver.</h2>
+          <p class="hero-text">
+            I am a 1st year B.Tech AIML student (2025-2029) focused on coding,
+            competitive programming (CP), web development, and real-world projects.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">See My Projects</a>
+            <a class="btn btn-outline" href="resume.html" target="_blank" rel="noopener noreferrer">Download Resume</a>
+            <button id="intro-button" class="btn btn-outline" type="button">Click Me</button>
+          </div>
+          <p id="message" class="message" aria-live="polite"></p>
+        </div>
+
+        <aside class="hero-card">
+          <h3>Quick Highlights</h3>
+          <ul class="hero-points">
+            <li>B.Tech CSE (AI-ML), BIT Mesra</li>
+            <li>CGPA: 9.23/10</li>
+            <li>Competitive Programming + DSA</li>
+            <li>Built and deployed SnapCut AI</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="container section panel">
+      <h3>About Me</h3>
+      <p>
+        I am <strong>Sourav Kumar</strong>, a <strong>B.Tech CSE (AI-ML)</strong> student at
+        <strong>BIT Mesra</strong>, currently in <strong>1st year (2025-2029)</strong>. I am passionate
+        about AI/ML and web development, and I enjoy building simple products, improving UI, and
+        growing my problem-solving skills through projects.
+      </p>
+      <p>
+        I am a Computer Science student specializing in AI and ML, with a strong interest in
+        competitive programming and problem-solving. Currently, I am building expertise in C++
+        and Data Structures & Algorithms while working on projects that apply machine learning
+        concepts to practical challenges.
+      </p>
+      <p>
+        I enjoy participating in coding competitions, which help me sharpen my analytical skills
+        and think creatively under pressure. My long-term goal is to contribute to innovative
+        AI solutions that have real-world impact. As a lifelong learner, I am always eager to
+        explore new technologies, collaborate with peers, and grow both personally and professionally.
+      </p>
+      <p>
+        Outside academics, I am interested in <strong>cricket</strong>, <strong>coding</strong>,
+        <strong>CP</strong>, and development-focused learning.
+      </p>
+    </section>
+
+    <section id="skills" class="container section panel">
+      <h3>Skills & Tools</h3>
+      <div class="chip-row">
+        <span class="chip">Coding</span>
+        <span class="chip">Competitive Programming (CP)</span>
+        <span class="chip">C++</span>
+        <span class="chip">Python</span>
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">React</span>
+        <span class="chip">JSON</span>
+        <span class="chip">Data Structures & Algorithms</span>
+        <span class="chip">Problem Solving</span>
+        <span class="chip">Critical Thinking</span>
+        <span class="chip">Logical Reasoning</span>
+        <span class="chip">Git & GitHub</span>
+        <span class="chip">Responsive Design</span>
+        <span class="chip">AI/ML Fundamentals</span>
+      </div>
+
+      <h4>Soft Skills</h4>
+      <div class="chip-row">
+        <span class="chip">Teamwork</span>
+        <span class="chip">Collaboration</span>
+        <span class="chip">Communication</span>
+        <span class="chip">Leadership</span>
+        <span class="chip">Event Coordination</span>
+        <span class="chip">Time Management</span>
+      </div>
+
+      <h4>Activities & Achievements</h4>
+      <div class="chip-row">
+        <span class="chip">Dancing</span>
+        <span class="chip">Playing Guitar</span>
+        <span class="chip">Tabla</span>
+        <span class="chip">Cricket</span>
+        <span class="chip">Head Boy of School</span>
+      </div>
+    </section>
+
+    <section id="projects" class="container section panel">
+      <div class="section-head">
+        <h3>Projects</h3>
+      </div>
+      <div id="project-grid" class="project-grid">
+        <p class="loading">Loading projects...</p>
+      </div>
+    </section>
+
+    <section class="container section panel">
+      <h3>Web Development Capstone - Features Implemented</h3>
+      <div class="timeline">
+        <article class="timeline-item">
+          <h4>Resume/Portfolio Website (HTML, CSS, JavaScript)</h4>
+          <ul>
+            <li>Structured sections with proper containers and navigation links.</li>
+            <li>Contact form integrated with localStorage JSON response storage.</li>
+            <li>Admin login with show/hide behavior using CSS + JavaScript.</li>
+            <li>User responses panel with dynamic rendering and timestamps.</li>
+            <li>Full website light/dark theme toggle.</li>
+          </ul>
+        </article>
+        <article class="timeline-item">
+          <h4>React Components Contact Cards Project (Planned/Portfolio Project)</h4>
+          <ul>
+            <li>Single-page React app with user input and dynamic contact cards.</li>
+            <li>Reusable modular components and structured component folders.</li>
+          </ul>
+        </article>
+        <article class="timeline-item">
+          <h4>React Mini Project - Like/Unlike Card (Planned/Portfolio Project)</h4>
+          <ul>
+            <li>Reusable card component with title via props.</li>
+            <li>Like/Not liked toggle handled with React useState.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section panel">
+      <h3>Experience</h3>
+      <p><a class="btn btn-outline btn-small" href="resume.html" target="_blank" rel="noopener noreferrer">Download Resume</a></p>
+      <div class="timeline">
+        <article class="timeline-item">
+          <h4>Member - Google Developer Groups on Campus, BIT Mesra</h4>
+          <p class="hint">Feb 2026 - Present | India | On-site | Full-time</p>
+          <p>
+            Contributing as a member in technical and community initiatives focused on
+            problem solving and teamwork.
+          </p>
+        </article>
+
+        <article class="timeline-item">
+          <h4>Undergraduate Student - CSE (AI-ML), IEEE Student Branch BIT Mesra</h4>
+          <p class="hint">Feb 2026 - Mar 2026 | Remote</p>
+          <p>
+            Pursuing B.Tech in CSE (AI-ML) and actively strengthening problem-solving through
+            Data Structures & Algorithms and competitive programming on Codeforces.
+            Served as a technical member and participated in workshops and coding events.
+          </p>
+          <p class="hint">Skills: Teamwork, Python, Problem Solving</p>
+        </article>
+
+        <article class="timeline-item">
+          <h4>Technical Member - SDS Club, BIT Mesra</h4>
+          <p class="hint">Feb 2026 - Mar 2026 | Mesra, Ranchi, Jharkhand | On-site | Full-time</p>
+          <p>
+            Selected as a technical member of SDS Club, contributing to technical projects
+            and event execution while improving practical collaboration and problem-solving skills.
+          </p>
+          <p class="hint">Skills: Teamwork, Problem Solving, Collaboration</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section panel">
+      <h3>Education</h3>
+      <div class="timeline">
+        <article class="timeline-item">
+          <h4>Birla Institute of Technology, Mesra</h4>
+          <p class="hint">B.Tech - CSE (AI-ML) | 2025 - 2029</p>
+          <p><strong>Grade:</strong> 9.23/10</p>
+          <p>
+            Activities and societies: Cricket team member, IEEE tech team member,
+            SDS club permanent member.
+          </p>
+          <p class="hint">Key skills: C++, Python</p>
+        </article>
+
+        <article class="timeline-item">
+          <h4>SDSM School for Excellence</h4>
+          <p class="hint">Apr 2023 - Apr 2025</p>
+          <p><strong>Grade:</strong> A</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section panel">
+      <h3>Licenses & Certifications</h3>
+      <div class="timeline">
+        <article class="timeline-item">
+          <h4>Puzzle Champ'26 - NIT Tiruchirappalli</h4>
+          <p class="hint">Issued Mar 2026</p>
+          <p>
+            Participated in Puzzle Champ'26 at NIT Tiruchirappalli. Solved logical and
+            analytical puzzles to strengthen critical thinking, teamwork, and problem-solving.
+          </p>
+        </article>
+
+        <article class="timeline-item">
+          <h4>Space Quiz - Advitiya'26 (IIT Ropar)</h4>
+          <p class="hint">Issued Mar 2026</p>
+          <p>
+            Participated in the Space Quiz at IIT Ropar focused on space science, awareness,
+            analytical thinking, and competitive aptitude.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section panel">
+      <h3>Volunteering</h3>
+      <div class="timeline">
+        <article class="timeline-item">
+          <h4>Member - NSS, BIT Mesra</h4>
+          <p class="hint">Sep 2025 - Present</p>
+          <p>Civil Rights and Social Action.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section panel">
+      <h3>Skills Highlights</h3>
+      <div class="chip-row">
+        <span class="chip">Critical Thinking</span>
+        <span class="chip">Logical Reasoning</span>
+        <span class="chip">Problem Solving</span>
+        <span class="chip">Competitive Programming</span>
+        <span class="chip">C++</span>
+        <span class="chip">Python</span>
+        <span class="chip">Teamwork</span>
+        <span class="chip">Machine Learning Basics</span>
+      </div>
+    </section>
+
+    <section id="contact" class="container section panel">
+      <h3>Contact Me (IMPORTANT)</h3>
+      <p>Send a message and it will be stored in your browser local storage.</p>
+      <p><strong>Name:</strong> Sourav Kumar</p>
+      <p><strong>Phone:</strong> 8789504881</p>
+      <p><strong>Email:</strong> souravkumar78706287@gmail.com</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/sourav-kumar-43a110379/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+        <a href="https://github.com/souravkumar78706287-lgtm" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+        <a href="resume.html" target="_blank" rel="noopener noreferrer">Download Resume</a>
+      </div>
+      <form id="contact-form" class="contact-form">
+        <div class="field-group">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+        <div class="field-group">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+        <div class="field-group">
+          <label for="message-input">Message</label>
+          <textarea id="message-input" name="message" rows="5" required></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+        <p id="form-status" class="hint"></p>
+      </form>
+
+      <div id="admin-login-box" class="admin-box">
+        <h4>Admin Login</h4>
+        <p class="hint">Admin login to view submitted responses</p>
+        <form id="admin-form" class="contact-form">
+          <div class="field-group">
+            <label for="admin-username">Username</label>
+            <input id="admin-username" type="text" required />
+          </div>
+          <div class="field-group">
+            <label for="admin-password">Password</label>
+            <input id="admin-password" type="password" required />
+          </div>
+          <button class="btn btn-primary" type="submit">Login</button>
+          <p id="admin-status" class="hint"></p>
+        </form>
+      </div>
+
+      <div id="responses-box" class="admin-box hidden">
+        <div class="section-head">
+          <h4>User Responses</h4>
+          <button id="admin-logout" class="btn btn-outline btn-small" type="button">Logout</button>
+        </div>
+        <div id="responses-list" class="response-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Sourav. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

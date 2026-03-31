@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Resume/Portfolio Website with Contact Retrieval",
+    "description": "Built a full portfolio website with section-based navigation, contact form, localStorage JSON response storage, admin login, dynamic response retrieval with timestamps, and light/dark theme toggle.",
+    "technologies": ["HTML", "CSS", "JavaScript", "localStorage", "JSON"],
+    "githubLink": "https://github.com/souravkumar78706287-lgtm"
+  },
+  {
+    "title": "SnapCut AI - Background Removal Tool",
+    "description": "Developed an AI-powered web application to remove image backgrounds instantly. Built a modern responsive UI, integrated image upload and processing workflow, and deployed it for real-world usage.",
+    "technologies": ["HTML", "CSS", "JavaScript", "AI APIs"],
+    "liveLink": "https://snapcut-ai-pro-taupe.vercel.app/",
+    "githubLink": "https://github.com/souravkumar78706287-lgtm/snapcut-ai-pro"
+  },
+  {
+    "title": "RoboSaga Hackathon Project",
+    "description": "Participated in RoboSaga Hackathon and contributed to a C++ based project. Collaborated in a team environment to solve real-world problems and applied algorithmic thinking under time constraints.",
+    "technologies": ["C++", "Problem Solving"],
+    "githubLink": "https://github.com/KumarHarsh72/robosaga-hackathon"
+  },
+  {
+    "title": "React Components Contact Cards Project",
+    "description": "Planned React SPA to create users from form inputs and dynamically render reusable contact cards inside a parent UserList component with modular folder structure.",
+    "technologies": ["React", "JavaScript", "SPA", "Reusable Components"],
+    "githubLink": "https://github.com/souravkumar78706287-lgtm"
+  },
+  {
+    "title": "React Mini Project - Like/Unlike Card",
+    "description": "Planned React mini project with reusable card component, title passed through props, and like/unlike state managed via useState hook.",
+    "technologies": ["React", "JavaScript", "Props", "useState"],
+    "githubLink": "https://github.com/souravkumar78706287-lgtm"
+  },
+  {
+    "title": "Portfolio of Sourav Kumar - AI/ML Student, Developer, and Problem Solver",
+    "description": "A personal portfolio website with modern sections, responsive design, contact form, admin response retrieval, and light/dark theme support.",
+    "technologies": ["HTML", "CSS", "JavaScript", "AI APIs"],
+    "githubLink": "https://github.com/souravkumar78706287-lgtm"
+  }
+]
